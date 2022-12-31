@@ -8,9 +8,12 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1, shrink-to-fit=no"
 		/>
-		<meta name="description" content="Few ms dos or windows powershell command that could be usefull for everyone specially for Programmers.">
+		<meta
+			name="description"
+			content="Few ms dos or windows powershell command that could be usefull for everyone specially for Programmers."
+		/>
 
-		<meta name="keywords" content="dos, powershell, terminal">
+		<meta name="keywords" content="dos, powershell, terminal" />
 
 		<!-- Bootstrap CSS v5.2.1 -->
 		<link
@@ -24,28 +27,41 @@
 
 	<body>
 		<header>
-			<h1 class="text-center text-primary">Few terminal/powershell commands</h1>
+
+			<h1 class="text-center">Few Terminal commands</h1>
 		</header>
-		<main>
-			<article class="container">
+		<main class="container">
 				<section>
+		
+					<p>
+						Terminal is a program that acts as command-line interpreter. It
+						processes commands and outputs the results. It interprets and processes
+						the commands entered by the user.
+					</p>
+					<p>
+						Here are few terminal commands that might help you -
+					</p>
+				</section>
+				<article class="my-1">
 					<h3>Go to the root of current drive</h3>
 					<p>
-						Type this command to go to the root of current drive<kbd>cd\</kbd>
-						then <kbd>enter</kbd>. Lowercase or uppercase c and d with
+						Type this command to go to the root of current drive<strong
+							>cd\</strong
+						>
+						then <strong>enter</strong>. Lowercase or uppercase c and d with
 						backslash(\).
 					</p>
-				</section>
-				<section>
+				</article>
+				<article class="my-5">
 					<h3>how to change current working drive ?</h3>
 					<p>
-						Type this command to change current working drive<kbd>D:</kbd> then
-						<kbd>enter</kbd>(for changing to D drive). Write the drive name with
-						a colon sign(:)<kbd>shift+ ;</kbd>, example - <kbd>E:</kbd> for E
-						drive, <kbd>F:</kbd> for F drive.
+						Type this command to change current working drive<strong>D:</strong>
+						then <strong>enter</strong>(for changing to D drive). Write the
+						drive name with a colon sign(:)<strong>shift+ ;</strong>, example -
+						<strong>E:</strong> for E drive, <strong>F:</strong> for F drive.
 					</p>
-				</section>
-				<section>
+				</article>
+				<article class="my-5">
 					<h3>
 						how to display all files and folder in your current location ?
 					</h3>
@@ -54,47 +70,51 @@
 							<h4>All files and folder together</h4>
 							<p>
 								To display all files and folder together just type
-								<kbd>dir</kbd> then <kbd>enter</kbd>. uppercase or lowercase d,
-								i, r without any space.
+								<strong>dir</strong> then <strong>enter</strong>. uppercase or
+								lowercase d, i, r without any space.
 							</p>
 						</li>
 						<li>
 							<h4>Display only folders</h4>
 							<p>
-								To display all folder just type <kbd>dir/ad</kbd> then
-								<kbd>enter</kbd>. uppercase or lowercase d, i, r then slash(/)
-								and a,d without any space.
+								To display all folder just type <strong>dir/ad</strong> then
+								<strong>enter</strong>. uppercase or lowercase d, i, r then
+								slash(/) and a,d without any space.
 							</p>
 						</li>
 						<li>
 							<h4>Display only files</h4>
 							<p>
-								To display all files just type <kbd>dir/a-d</kbd> then
-								<kbd>enter</kbd>. uppercase or lowercase d, i, r then slash(/)
-								and a, with hyphen(-), d without any space.
+								To display all files just type <strong>dir/a-d</strong> then
+								<strong>enter</strong>. uppercase or lowercase d, i, r then
+								slash(/) and a, with hyphen(-), d without any space.
 							</p>
 						</li>
 					</ul>
-				</section>
-				<section>
+				</article>
+				<article class="my-5">
 					<h3>How to create file ?</h3>
 					<p>
 						To create any file use command
-						<kbd>copy con "filename"."extension"</kbd> then <kbd>enter</kbd>.
-						uppercase or lowercase 'copy' then space( ) then 'con' afterthat
-						Write filename then dot(.) with filetype extension. After creating the file write some initial content in that file then type <kbd>F6</kbd>button or <kbd>ctrl + z</kbd>.<br />
+						<strong>copy con "filename"."extension"</strong> then
+						<strong>enter</strong>. uppercase or lowercase 'copy' then space( )
+						then 'con' afterthat Write filename then dot(.) with filetype
+						extension. After creating the file write some initial content in
+						that file then type <strong>F6</strong>button or
+						<strong>ctrl + z</strong>.<br />
 						Example:- 'copy con index.html' for creating a html file, 'copy con
 						myPresentation.pptx' for creating a powerpoint file.
 					</p>
-					<table class="table">
+					<table
+						class="table table-sm table-bordered align-middle table-secondary table-striped table-hover"
+					>
 						<thead>
 							<h4>Few filetype extensions</h4>
 							<tr>
-								<th>Filename</td>
-								<th>Extension</td>
-								<th>Filename</td>
-								<th>Extension</td>
-								
+								<th>Filename</th>
+								<th>Extension</th>
+								<th>Filename</th>
+								<th>Extension</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -119,7 +139,7 @@
 							<tr>
 								<td>Word</td>
 								<td>.docx</td>
-								<td>C++ Programming</td>
+								<td>C++</td>
 								<td>.cpp / .cxx</td>
 							</tr>
 							<tr>
@@ -136,26 +156,54 @@
 							</tr>
 						</tbody>
 					</table>
-				</section>
-				<section>
+				</article>
+				<article class="my-5">
 					<h3>How to copy or move any file ?</h3>
 					<ul>
 						<li>
 							<h4>Copy a file</h4>
 							<p>
-								Type <kbd>copy 'file1name' 'file2name' </kbd>then <kbd>enter</kbd>. 'file1name' is the name of that file whichone you want to copy and 'file2name' is the name of file on which you want to paste<br/>
-								<strong>Both of the file name must be wriiten with filetype extension. <br> If file2 does not exist then a new file with that name will be created on the other hand if file2 already exist then it will overwrite its content by file1 content.</strong> 
+								Type <strong>copy 'file1name' 'file2name' </strong>then
+								<strong>enter</strong>. 'file1name' is the name of that file
+								whichone you want to copy and 'file2name' is the name of file on
+								which you want to paste<br />
+								<strong
+									>Both of the file name must be wriiten with filetype
+									extension. <br />
+									If file2 does not exist then a new file will be created on the
+									other hand if file2 already exist then it will overwrite its
+									content by file1 content.</strong
+								>
 							</p>
 						</li>
-						<!-- <li></li> -->
+						<li>
+							<h4>Move a file</h4>
+							<p>
+								Type <strong>type 'file1name' 'file2name' </strong>then
+								<strong>enter</strong>.
+								<strong
+									>Both of the file name must be wriiten with filetype
+									extension. <br />
+									If file2 does not exist then a new file will be created on the
+									other hand if file2 already exist then it will overwrite its
+									content by file1 content.</strong
+								>
+							</p>
+						</li>
 					</ul>
-				</section>
-			</article>
-		</main>
-		<footer>
-			<!-- place footer here -->
-		</footer>
-		<!-- Bootstrap JavaScript Libraries -->
+				</article>
+				<article>
+					<h3>Clear terminal screen</h3>
+					<p>
+						Type <b>cls</b> then click enter , it will clear your terminal
+						screen.
+					</p>
+				</article>
+			</main>
+			<footer>
+				<!-- place footer here -->
+			</footer>
+		</article>		<!-- Bootstrap JavaScript Libraries -->
 		<script
 			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
 			integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
